@@ -292,8 +292,8 @@ const Home = () => {
 
                     {/* Product Grids */}
                     <div className=' border-red-500 grid relative  grid-cols-5'>
-                        <div className={`col-span-1 bg-[#fff] custom-shadow px-8 py-4 rounded-lg ${toggle ? "block fixed z-40 top-[6rem] right-[2rem] w-fit" : "hidden"} lg:col-span-1 lg:block border-black `}>
-                            <div className='sticky top-0   border-black '>
+                        <div className={`col-span-1  bg-[#fff] custom-shadow lg:shadow-none px-10 py-4 lg:px-0 lg:py-0 rounded-lg ${toggle ? "block fixed z-40 top-[4.2rem] right-[2rem] w-fit" : "hidden"} lg:col-span-1 lg:block border-black `}>
+                            <div className='sticky top-0  border-black '>
                                 {/* category */}
                                 <Category handleChange={handleChange} />
 
