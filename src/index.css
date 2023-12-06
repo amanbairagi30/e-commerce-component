@@ -6,3 +6,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+.custom-shadow{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 8px 10px;
+}
